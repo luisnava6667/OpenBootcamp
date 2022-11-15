@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Persona miPersona = new Persona();
 
-        miPersona.setEdad(22);
-        miPersona.setNombre("Daniel Valente");
-        miPersona.setTelefono("3321078940");
+        miPersona.setEdad(33);
+        miPersona.setNombre("Luis Navarro");
+        miPersona.setTelefono("541531496472");
 
         System.out.println("Nombre de la persona: " + miPersona.getNombre());
         System.out.println("Edad: " + miPersona.getEdad());
