@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        
+        
+        <div class="row mt-4">   
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Texto Jumbotron</h1>
+                    <p class="col-md-8 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt consectetur esse omnis quidem, provident et aliquid rem fuga quos, molestiae totam, nisi cum recusandae perspiciatis. Ex nam beatae soluta eos.</p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal-1">Boton</button>
+                    <div class="modal" tabindex="-1" id="modal-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Modal title</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+        <div class="row mt-5">
+            <form action="#">
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="name">Nombre:</label>
+                    <input type="text" class="form-control"/>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="name">Telefono:</label>
+                    <input type="number" class="form-control"/>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="name">Mensaje:</label>
+                    <textarea type="text" class="form-control"></textarea>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <button class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="row my-5">
+            <div class="card" style="width: 16rem; padding: 0;">
+                <div class="card-header">
+                    <h5 class="card-title">Luis Navarro</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Programador FrontEnd Jr. con experiencia en HTML CSS JavaScrpit, PHP, React. Facilidad para trabajar en equipo. He estudiado con plataformas digitales como Udemy y medios altenativos. Apacionado con la programacion web y el aprendizaje de nuevas tecnologias.</p>
+                </div>
+                <div class="card-footer fs-6">
+                    navaluisrodolfo@gmail.com
+                </div>
+            </div>
+        
+        </div>
+        
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
