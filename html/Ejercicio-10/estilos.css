@@ -1,0 +1,17 @@
+.seccion-1 {
+   display: flex;
+}
+
+.seccion-1 aside {
+   background-color: yellow;
+}
+
+@media screen and (max-width: 640px) {
+   .seccion-1 {
+      flex-direction: column-reverse;
+   }
+
+   .seccion-1 aside {
+      display: flex;
+   }
+}
